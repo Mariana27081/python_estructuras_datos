@@ -8,13 +8,13 @@ Este proyecto fue desarrollado con el propósito de fortalecer el manejo de estr
 
 A lo largo del proyecto se implementaron diferentes módulos relacionados con:
 
-* Gestión de inventarios
-* Catálogos de películas
-* Procesamiento de ventas
-* Operaciones con conjuntos
-* Uso de comprehensions
+* Gestión de listas
+* Manipulación de tuplas
+* Uso de diccionarios
+* Operaciones con conjuntos (sets)
+* Implementación de comprehensions
 
-Cada ejercicio permitió aplicar lógica de programación y buenas prácticas en el manejo de datos.
+Cada módulo permitió aplicar lógica de programación, procesamiento de datos y buenas prácticas en Python.
 
 ---
 
@@ -32,7 +32,7 @@ Durante el desarrollo del proyecto se trabajaron los siguientes conceptos:
 ### 🔹 Técnicas de programación
 
 * Funciones personalizadas
-* Desempaquetado de variables
+* Desempaquetado de datos
 * Uso de `lambda`
 * Uso de `sorted()`, `max()` y `sum()`
 
@@ -53,30 +53,31 @@ Durante el desarrollo del proyecto se trabajaron los siguientes conceptos:
 
 ## 🧩 Evidencia de retos resueltos
 
-### ✔️ Módulo 1 – Inventario
+### ✔️ Módulo Listas
 
-* Control de stock
-* Actualización de precios
+* Gestión de inventarios
+* Actualización de productos
 * Registro de ventas
 
-### ✔️ Módulo 2 – Catálogo de películas
+### ✔️ Módulo Tuplas
 
+* Catálogo de películas
 * Búsqueda por director
 * Estadísticas de puntuaciones
 
-### ✔️ Módulo 3 – Ventas por región
+### ✔️ Módulo Diccionarios
 
-* Cálculo de ventas totales
-* Identificación de la región con mejores resultados
+* Ventas por región
 * Reportes ordenados
+* Cálculo de porcentajes
 
-### ✔️ Módulo 4 – Operaciones con Sets
+### ✔️ Módulo Conjuntos
 
 * Comparación de productos
 * Elementos comunes y exclusivos
-* Verificación de subconjuntos
+* Operaciones con sets
 
-### ✔️ Módulo 5 – Comprehensions
+### ✔️ Módulo Comprehensions
 
 * Optimización de código
 * Transformación rápida de datos
@@ -86,31 +87,63 @@ Durante el desarrollo del proyecto se trabajaron los siguientes conceptos:
 
 ## 📸 Capturas de ejecución
 
-### 🔹 Ejecución de módulos
+### 🔹 Módulo Listas
 
-![Ejecución módulo 1](images/ejecucion_modulo1.png)
+#### Código
 
-![Ejecución módulo 2](images/ejecucion_modulo2.png)
+![Código listas](images/listas_code.png)
 
-![Ejecución módulo 3](images/ejecucion_modulo3.png)
+#### Ejecución en terminal
 
-![Ejecución módulo 4](images/ejecucion_modulo4.png)
-
-![Ejecución módulo 5](images/ejecucion_modulo5.png)
+![Terminal listas](images/listas_terminal.png)
 
 ---
 
-### 🔹 Resultados de los módulos
+### 🔹 Módulo Tuplas
 
-![Módulo 1](images/modulo_1.png)
+#### Código
 
-![Módulo 2](images/modulo_2.png)
+![Código tuplas](images/tuplas_code.png)
 
-![Módulo 3](images/modulo_3.png)
+#### Ejecución en terminal
 
-![Módulo 4](images/Modulo_4.png)
+![Terminal tuplas](images/tuplas_terminal.png)
 
-![Módulo 5](images/modulo_5.png)
+---
+
+### 🔹 Módulo Diccionarios
+
+#### Código
+
+![Código diccionarios](images/diccionarios_code.png)
+
+#### Ejecución en terminal
+
+![Terminal diccionarios](images/diccionario_terminal.png)
+
+---
+
+### 🔹 Módulo Conjuntos
+
+#### Código
+
+![Código conjuntos](images/conjuntos_code.png)
+
+#### Ejecución en terminal
+
+![Terminal conjuntos](images/conjuntos_terminal.png)
+
+---
+
+### 🔹 Módulo Comprehensions
+
+#### Código
+
+![Código comprehensions](images/comprehesion_code.png)
+
+#### Ejecución en terminal
+
+![Terminal comprehensions](images/comprehesion_terminal.png)
 
 ---
 
@@ -130,7 +163,7 @@ En conclusión, este proyecto representó una experiencia valiosa para mejorar t
 
 ## 🚀 Cómo ejecutar el proyecto
 
-```bash
+```bash id="fsxgrf"
 python nombre_archivo.py
 ```
 
